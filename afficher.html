@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title> Tennis draw example </title>
+    <link rel="stylesheet" href="Treant.css">
+    <link rel="stylesheet" href="example7.css">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/starter-template/">
+
+    <!-- Bootstrap core CSS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+    <!-- Favicons -->
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+        
+<!-------------------------------------------MENU--------------------------------------->
+<nav class="navbar navbar-expand-md   navbar-dark  fixed-top bg-primary">
+    <a href="index.html"><img src="images/logo1.png" alt="Logo" style="width:40px;"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+        <div class="collapse navbar-collapse   justify-content-center" id="navbarsExampleDefault">
+          <ul class="navbar-nav  ">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="creer.html">creer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contac</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Apropos</a>
+                        </li>
+            </ul>
+        </div>
+  </nav>
+
+
+
+  
+<!-------------------------------------------L'ARBRE--------------------------------------->
+<div class="container">
+    <div class="afficher  text-right">
+       <h2>Liste des rencontres </h2> 
+    </div>
+    
+    place pour l'arbre
+</div>
+    <div class="chart" id="output">
+        
+    <script src="../../vendor/raphael.js"></script>
+    <script src="../../Treant.js"></script>
+    
+    <script src="example7.js"></script>
+    <script>
+       new Treant( tree_structure );
+    </script>
+
+</div>
+ 
+      
+<button type="submit" class="btn btn-primary mt-5 btn-imprimer">Imprimer au format pdf</button>
+ 
+
+<!-- -----------------------------------FICHIER JS-------------------------------------------->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="/docs/4.4/assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="/docs/4.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
+
+</body>
+</html>

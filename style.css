@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+
+
+body{
+    font-family: 'Exo', sans-serif;
+}
+
+
+
+
+
+
+.afficher
+{
+   
+    width: 900px;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.afficher h1
+{
+    width: 30%;
+    margin-top: 10px;
+}
+#output
+{
+    margin-top: 25px;
+}
+.btn-imprimer
+{
+    margin-bottom: 40px;
+    margin-top: -40px;
+    margin-left: 178px;
+}
+
+.creer
+{
+  
+    margin: auto;
+    width: 900px;
+    margin-top: 80px;
+}
+
+.creer a 
+{
+    color: black;
+}
+li a:hover {
+  font-size: 17px;
+  
+}
+
+
+
+  /*****************************************************************/
+/*                     COULEURS                                */
+ /*****************************************************************/
+ .bg-vert
+{
+    background-color: rgb(21, 219, 104);
+}
+.bg-rouge
+{
+    background-color: #f82200;
+}
+
+.navbar
+{
+    background-color: rgb(80, 6, 100);
+}
+
+
+/*****************************************************************************
+   RESULTAT
+*****************************************************************************/
+.resultat-component
+{
+    background-color: rgb(5, 4, 51);
+    color: black;
+}
+.card
+{
+    margin-bottom: 100px;
+    border: none;
+    background: none;
+    color: rgb(200, 209, 218);
+}
+.resultat-container
+{
+    width: 800px;
+    margin: auto;
+     
+}
+
+
+.list-tour-container
+{
+    text-align: center;
+    
+}
+.list-tour-container select
+{
+    height: 30px;
+    border: none;
+    background-color: rgb(215, 247, 252);
+    border-radius: 8px;
+    color: #2853fd;
+    text-align: center;
+}
+
+.list-group-item
+{
+    height: 35px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 10px;
+    margin-top: 10px;
+    border: none;
+    background-color: rgb(0, 16, 70);
+    color: white;
+}
+
+.list-group-item .num
+{
+   height: 100%;
+   width: 30px;
+   position: absolute;
+   top: 0;
+   left: 0;
+   text-align: center;
+   color: black;
+   line-height: 20px;
+}
+
+
+/*****************************************************************************
+   CEER
+*****************************************************************************/
+body {
+	background: white;
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	color:black;
+	text-shadow: 1px 1px 1px white;
+	text-align:center;
+}
+
+/*@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}*/
+.creer
+{
+    margin: auto;
+    margin-top: 120px;
+    width: 700px;
+    position: relative;
+}
+
+.text-right-btn
+{
+   margin-top: 100px;
+   position: absolute;
+   right: 0;
+   color:black;
+}
+
+.text-right-btn,.creer a
+{
+    color: black;
+    text-decoration: none;
+}
+
+.text-right-btn button
+{
+    margin-left: 40px;
+}
+.form-check-label{
+	color:black;
+}
+.table#rc{
+
+table-layout:auto;
+width:50%;
+    margin-left:25%; 
+    margin-right:25%;
+	color:black;
+}
+.hypertext1{
+font-size: 1.5em;
+}
+.table#liste_ini{
+	width:70%;
+    margin-left:15%; 
+    margin-right:15%;
+	color:black;
+	text-shadow: 1px 1px 2px white;
+	
+
+}
+
+.d-block#button_tirage{
+width:50%;
+    margin-left:25%; 
+    margin-right:25%; 
+}
+#impt{
+	text-align:left;
+	margin-left:15%; 
+}
+.btn-group#telechargement{
+	width:50%;
+    margin-left:25%; 
+    margin-right:25%;
+}
+.btn-group#contactZone{
+	width:60%;
+   margin-left:20%
+}
+.alert{
+	
+	width:50%;
+    margin-left:25%; 
+    margin-right:25%;
+	
+}
+/* Green */
+.success {
+  border-color: #4CAF50;
+  color: green;
+}
+
+.success:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Gray */
+.default {
+  border-color: #e7e7e7;
+  color: black;
+}
+
+.default:hover {
+  background: #e7e7e7;
+}
+/* Red */
+.danger {
+  border-color: #f44336;
+  color: red;
+}
+
+.danger:hover {
+  background: #f44336;
+  color: white;
+}
+.justify-content-center#env{
+	width:40%;
+	    margin-left:13%; 
+    margin-right:40%;
+}
+

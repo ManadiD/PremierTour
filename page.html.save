@@ -1,0 +1,16 @@
+
+<?php
+
+$tab = array ("EE",2,22);
+
+foreach( $tab as $i ){
+
+echo "$i\n";
+
+}
+
+
+
+?>
+
+</body>
